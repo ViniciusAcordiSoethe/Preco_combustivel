@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Preço da Gasolina Hj</title>
-    <script src="combus.js"></script>
+
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <form>
@@ -13,14 +14,17 @@
         <h1>Saiba quantos vai colocar em Litros</h1>
 
         <input type="text" id="valorcolocar" placeholder="50" name="valorcolocar"/>
+        <br>
         <label for="valorcolocar">Valor a se abastecer</label>
-
+        <br>
         <input type="text" id="valorlitro" placeholder="50" name="valorlitro" />
+        <br>
         <label for="valorlitro">Valor do litro na sua cidade</label>
-
+        <br>
         <input type="submit" onclick="calcula();" value="Calcular" />
     </form>
 
+    <script src="combus.js"></script>
 
 </body>
 </html>
